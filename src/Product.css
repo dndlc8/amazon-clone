@@ -10,12 +10,13 @@
   min-width: 100px;
   background-color: white;
   z-index: 1;
-  font-family: "Amazon Ember",Arial,sans-serif;;
+  font-family: "Amazon Ember", Arial, sans-serif;
 }
 
 .product_rating {
   display: flex;
 }
+
 .product > img {
   max-height: 200px;
   width: 100%;
