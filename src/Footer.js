@@ -39,24 +39,16 @@ function Footer() {
           Sell Products on Amazon
         </div>
         <div className= "footer_sub_category">
-          Sell apps on 
-          <br />Amazon
-        </div>
-        <div className= "footer_sub_category">
           Become an Affiliate
         </div>
         <div className= "footer_sub_category">
           Advertise Your Products
         </div>
         <div className= "footer_sub_category">
-          Self-Publish with Us
-        </div>
-        <div className= "footer_sub_category">
           Host an Amazon Hub
         </div>
         <div className= "footer_sub_category">
-          > See More Make Money 
-          <br />with Us
+          > See More Make Money with Us
         </div>
       </div>
       <div className="footer_section">
@@ -69,15 +61,6 @@ function Footer() {
         </div>
         <div className= "footer_sub_category">
           Amazon.com Store Card
-        </div>
-        <div className= "footer_sub_category">
-          Amazon Business Card
-        </div>
-        <div className= "footer_sub_category">
-          Amazon Business Line of Credit
-        </div>
-        <div className= "footer_sub_category">
-          Shop with Points
         </div>
         <div className= "footer_sub_category">
           Credit Card Marketplace
@@ -104,9 +87,6 @@ function Footer() {
           <br />Policies
         </div>
         <div className= "footer_sub_category">
-          Amazon Prime
-        </div>
-        <div className= "footer_sub_category">
           Returns & 
           <br />Replacements
         </div>
@@ -116,9 +96,6 @@ function Footer() {
         </div>
         <div className= "footer_sub_category">
           Amazon Assistant
-        </div>
-        <div className= "footer_sub_category">
-          Help
         </div>
       </div>
       </div>

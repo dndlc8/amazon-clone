@@ -3,7 +3,7 @@ hr {
 }
 
 .footer {
-  height: 450px;
+  height: auto;
   background-color: #1c2d46;
   color: white;
 }
@@ -14,18 +14,20 @@ hr {
 }
 
 .footer_section {
-  margin: 30px 60px 10px;
+  margin: 30px 60px 0;
   justify-content: center;
   flex-direction: column nowrap;
+  height: auto;
 }
 
 .footer_category {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 17px;
   margin: 6px 0 14px;
   flex-wrap: nowrap;
 }
 
 .footer_sub_category {
   margin: 0 0 10px;
+  font-size: 14px;
 }
