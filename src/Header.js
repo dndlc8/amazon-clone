@@ -19,34 +19,40 @@ function Header() {
   return (
     <div className="header">
       <Link to="/">
+        <div className="logo_containter">
         <img
           className="header_logo"
           src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
           alt=""
         />
+        <div className="clone_attach">CLONE</div>
+        </div>
       </Link>
 
+      <div className="header_option">
+          <span className="header_optionLineOne">Deliver to</span>
+          <span className="header_optionLineTwo">Los Angeles 90001</span>
+        </div>
+
       <div className="header_search">
-        <input classname="header_searchInput" type="text" />
+        <input className="header_searchInput" type="text" />
         <SearchIcon className="header_searchIcon" />
       </div>
 
       <div className="header_nav">
-        <Link to={!user && '/login'}>
+        <Link to={user ? '/' : '/login'}>
         <div className="header_option" onClick={handleAuthentication}>
-          <span className="header_optionLineOne">Hello {user?.email || 'Guest'}</span>
+          <span className="header_optionLineOne">Hello, {user?.email || 'Guest'}</span>
           <span className="header_optionLineTwo">{user ? 'Sign Out' : 'Sign In'}</span>
       </div>
       </Link>
 
-      <div className="header_option" >
+      <Link to='/orders'>
+        <div className="header_option" >
           <span className="header_optionLineOne">Returns</span>
           <span className="header_optionLineTwo">& Orders</span>
-      </div>
-        <div className="header_option">
-          <span className="header_optionLineOne">Your</span>
-          <span className="header_optionLineTwo">Prime</span>
         </div>
+      </Link>
         
 
         <Link to="/checkout">

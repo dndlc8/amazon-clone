@@ -13,6 +13,11 @@
   font-family: "Amazon Ember", Arial, sans-serif;
 }
 
+.product:hover {
+  box-shadow: 5px 5px 5px 5px #888888;
+  transition: 0.5s;
+}
+
 .product_rating {
   display: flex;
 }
@@ -25,11 +30,19 @@
 }
 
 .product > button {
-  background: #f0c14b;
+  background-image: linear-gradient(#fae4ab, #f0c14b);
   border: 1px solid;
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
+  font-size: 13px;
+  padding: 6px 35px;
+  border-radius: 3px;
+}
+
+.product > button:hover {
+  background-image: linear-gradient(#f0c14b, #cea743);
+  transition: 0.2s;
 }
 
 .product_info {

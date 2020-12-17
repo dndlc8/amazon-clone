@@ -15,11 +15,18 @@
 }
 
 .checkoutProduct_info > button {
-  background: #f0c14b;
+  background-image: linear-gradient(#fae4ab, #f0c14b);
+  border-radius: 3px;
   border: 1px solid;
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
+  padding: 6px 15px;
+}
+
+.checkoutProduct_info > button:hover {
+  background-image: linear-gradient(#f0c14b, #cea743);
+  transition: 0.2s;
 }
 
 .checkoutProduct_rating {

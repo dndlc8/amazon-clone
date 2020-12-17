@@ -1,0 +1,18 @@
+.nav_bar {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #1c2d46;
+  top: 0;
+  z-index: 100;
+  padding-left: 18px;
+}
+
+.nav_bar_options {
+  color: white;
+  height: 12px;
+  padding: 10px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
